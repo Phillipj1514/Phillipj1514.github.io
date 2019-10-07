@@ -2,3 +2,27 @@
 Name: Phillip Llewellyn 
 ID:620118149
 */
+
+* {
+  margin: : 0;
+}
+
+header{
+	text-align: center;
+	background-color: LimeGreen;
+	padding: 30px 400px;
+	position: relative;
+	color: White;
+}
+#header_box{
+	border-style: solid;
+	border-color: White;
+	border-width: 2px;
+}
+main{
+	background-color: LightGrey;
+}
+h3{
+	text-transform: uppercase;
+}
+
