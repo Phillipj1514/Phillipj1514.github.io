@@ -16,49 +16,97 @@ ID:620118149
 }
 .header{
 	grid-area: header;
-	text-align: center;
-	background-color: LimeGreen;
+  	background-color: LimeGreen;
 	padding: 30px 400px;
-	position: relative;
 	color: White;
+	position: sticky;
+	top: 0;
 }
 
 .side-bar{
 	grid-area: side-bar;
+	display: flex;
+	flex-direction: column;
 	background-color: LightGrey;
-	padding: 50px;
+	padding: 20px;
 	margin-top: 5px;
+	border-radius: 5px;
 }
 .main{
 	grid-area: main;
 	background-color: White;
-	padding: 50px;
+	padding: 10px 50px;
 	margin-top: 5px;
 }
 
 #header_box{
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	position: relative;
 	border-style: solid;
 	border-color: White;
 	border-width: 2px;
+	margin: 0;
+	line-height: 0px;
+	padding: 5px;
 }
 
-main{
-	background-color: LightGrey;
-	padding: 50px;
-	margin-top: 5px;
+.timeline{
+	display:flex;
+	flex-direction: row;
 }
-h3{
+
+.timeline-date{
+	line-height: 0px;
+	margin-right: 10px;
+	flex: 0 0 100px
+}
+
+.timeline-detail{
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.detail-title{
+	line-height: 0px;
+}
+.title-text{
 	text-transform: uppercase;
 }
-.divider{
+.skill-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 60%;
+	font-size: 15px;
+}
+.divider-side{
 	border-style: solid;
-	border-color: White;
+	border-color: Black;
+	border-width: 1px;
+}
+
+.divider-main{
+	border-style: solid;
+	border-color: Grey;
 	border-width: 2px;
 }
+.profile-pic{
+	align-self: center;
+
+}
+.detail-text{
+	font-style: italic;
+}
+
 #profile-pic{
-	width: 100px;
+	width: 120px;
 	height: auto;
 	border-radius: 100%;
+	align-self: center;
 }
 
 a{
@@ -70,12 +118,12 @@ a{
 }
 
 .fa {
-  padding: 2px;
+  padding: 6px;
   font-size: 6px;
   width: 15px;
   text-align: center;
   text-decoration: none;
-  margin: 1.5px;
+  margin: 2px;
   border-radius: 5px;
 }
 .fa-facebook {
