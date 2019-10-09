@@ -5,6 +5,7 @@ ID:620118149
 
 * {
   margin: : 0;
+  font-family: "Times New Roman", Times, serif;
 
 }
 
@@ -16,12 +17,13 @@ ID:620118149
 }
 .header{
 	grid-area: header;
-  	background-color: LimeGreen;
-	padding: 30px 400px;
+  	background-color: #47c4be;
+	padding: 30px 30%;
 	color: White;
 	position: sticky;
 	top: 0;
 }
+
 
 .side-bar{
 	grid-area: side-bar;
@@ -29,14 +31,14 @@ ID:620118149
 	flex-direction: column;
 	background-color: LightGrey;
 	padding: 20px;
-	margin-top: 5px;
-	border-radius: 5px;
+	margin-top: 20px;
+	border-radius: 3px;
 }
 .main{
 	grid-area: main;
 	background-color: White;
 	padding: 10px 50px;
-	margin-top: 5px;
+	margin-top: 20px;
 }
 
 #header_box{
@@ -75,23 +77,29 @@ ID:620118149
 }
 .title-text{
 	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+.side-title{
+	font-family: 'Titillium Web', sans-serif;
+	color: Black;
 }
 .skill-list{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	width: 60%;
-	font-size: 15px;
+	font-size: 17px;
+	font-style: oblique;
 }
 .divider-side{
 	border-style: solid;
-	border-color: Black;
-	border-width: 1px;
+	border-color: #4bada8;
+	border-width: 2px;
 }
 
 .divider-main{
 	border-style: solid;
-	border-color: Grey;
+	border-color: #4bada8;
 	border-width: 2px;
 }
 .profile-pic{
